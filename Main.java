@@ -3,16 +3,16 @@ public class Main {
         System.out.println("========================================");
         System.out.println("        INPUT DATA NILAI MAHASISWA  ");
         System.out.println("========================================");
-        Data_Mahasiswa nim1 = new Data_Mahasiswa();
+        DataMahasiswa nim1 = new DataMahasiswa();
         nim1.set_nim(20210040181);
         System.out.println("NIM          : " + nim1.get_nim());
-        Data_Mahasiswa nama1 = new Data_Mahasiswa();
+        DataMahasiswa nama1 = new DataMahasiswa();
         nama1.set_nama("ADITO");
         System.out.println("NAMA         : " + nama1.get_nama());
-        Data_Mahasiswa alamat1 = new Data_Mahasiswa();
+        DataMahasiswa alamat1 = new DataMahasiswa();
         alamat1.set_alamat("SUKABUMI,BAROS");
         System.out.println("ALAMAT       : " + alamat1.get_alamat());
-        Data_Mahasiswa universitas1 = new Data_Mahasiswa();
+        DataMahasiswa universitas1 = new DataMahasiswa();
         universitas1.set_univ("NUSA PUTRA UNIVERSITY");
         System.out.println("UNIVERSITAS  : " + universitas1.get_univ());
         // buat objek Scanner untuk input data yang dibutuhkan
